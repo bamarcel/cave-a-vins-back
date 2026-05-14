@@ -11,7 +11,7 @@ const cors = require('cors')
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://cave-a-vins-front.vercel.app/'
+    'https://cave-a-vins-front.vercel.app'
   ],
   credentials: true
 }))
