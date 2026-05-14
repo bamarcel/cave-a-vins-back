@@ -9,7 +9,10 @@ const loggerMiddleware = require('./middlewares/logger.middleware')
 
 const cors = require('cors')
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: [
+    'http://localhost:5173',
+    'cave-a-vins-back-production.up.railway.app'
+  ],
   credentials: true
 }))
 
