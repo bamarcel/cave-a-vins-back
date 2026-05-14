@@ -47,7 +47,7 @@ src/
 ## Local setup
 
 ```bash
-git clone https://github.com/TON_USERNAME/cave-a-vins-back
+git clone https://github.com/bamarcel/cave-a-vins-back
 cd cave-a-vins-back
 npm install
 cp .env.example .env   # fill in your values
